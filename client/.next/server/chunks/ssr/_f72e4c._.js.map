@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/dragonfire/Desktop/NextJS/authproject/client/src/app/profile/page.tsx"],"sourcesContent":["import { useServerInsertedHTML } from \"next/navigation\";\n\nexport default function ProfilePage() {\n    const {data, isLoading, isError} = useServerInsertedHTML();\n    return (\n        <div>\n        <h1>Profile</h1>\n        \n        </div>\n    );\n    }"],"names":[],"mappings":";;;;AAAA;AAAA;;;AAEe,SAAS;IACpB,MAAM,EAAC,IAAI,EAAE,SAAS,EAAE,OAAO,EAAC,GAAG,CAAA,GAAA,qLAAA,CAAA,wBAAqB,AAAD;IACvD,qBACI,8OAAC;kBACD,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAIR"}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
